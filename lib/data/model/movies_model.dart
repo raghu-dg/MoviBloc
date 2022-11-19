@@ -1,6 +1,6 @@
 import 'package:movi/domain/entities/search_result.dart';
 import 'package:movi/generated/json/base/json_field.dart';
-import 'package:movi/generated/json/movies_entity.g.dart';
+import 'package:movi/generated/json/movies_model.g.dart';
 import 'dart:convert';
 
 @JsonSerializable()
@@ -15,9 +15,9 @@ class MovieList {
   
   MovieList();
 
-  factory MovieList.fromJson(Map<String, dynamic> json) => $MoviesEntityFromJson(json);
+  factory MovieList.fromJson(Map<String, dynamic> json) => $MovieListFromJson(json);
 
-  Map<String, dynamic> toJson() => $MoviesEntityToJson(this);
+  Map<String, dynamic> toJson() => $MovieListToJson(this);
 
   @override
   String toString() {
@@ -53,8 +53,8 @@ class Movie {
   
   Movie();
 
-  factory Movie.fromJson(Map<String, dynamic> json) => $MoviesResultsFromJson(json);
-  Map<String, dynamic> toJson() => $MoviesResultsToJson(this);
+  factory Movie.fromJson(Map<String, dynamic> json) => $MovieFromJson(json);
+  Map<String, dynamic> toJson() => $MovieToJson(this);
 
   @override
   String toString() {

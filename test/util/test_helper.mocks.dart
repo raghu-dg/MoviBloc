@@ -4,17 +4,20 @@
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'dart:async' as _i6;
-import 'dart:convert' as _i11;
-import 'dart:typed_data' as _i12;
+import 'dart:convert' as _i14;
+import 'dart:typed_data' as _i15;
 
 import 'package:http/http.dart' as _i4;
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:movi/data/datasource/tmdb_data_source.dart' as _i5;
 import 'package:movi/data/model/movies_model.dart' as _i7;
-import 'package:movi/domain/entities/failures.dart' as _i8;
-import 'package:movi/domain/entities/search_result.dart' as _i9;
+import 'package:movi/data/model/persons_model.dart' as _i9;
+import 'package:movi/data/model/shows_model.dart' as _i8;
+import 'package:movi/domain/entities/failures.dart' as _i10;
+import 'package:movi/domain/entities/search_result.dart' as _i11;
 import 'package:movi/domain/repositories/tmdb_repository.dart' as _i3;
-import 'package:movi/domain/usecases/search_movie_usecase.dart' as _i10;
+import 'package:movi/domain/usecases/search_movie_usecase.dart' as _i13;
+import 'package:movi/util/search_type.dart' as _i12;
 import 'package:multiple_result/multiple_result.dart' as _i2;
 
 // ignore_for_file: type=lint
@@ -86,6 +89,23 @@ class MockTmdbDataSource extends _i1.Mock implements _i5.TmdbDataSource {
         ),
         returnValue: _i6.Future<List<_i7.Movie>>.value(<_i7.Movie>[]),
       ) as _i6.Future<List<_i7.Movie>>);
+  @override
+  _i6.Future<List<_i8.Show>> searchShow(String? query) => (super.noSuchMethod(
+        Invocation.method(
+          #searchShow,
+          [query],
+        ),
+        returnValue: _i6.Future<List<_i8.Show>>.value(<_i8.Show>[]),
+      ) as _i6.Future<List<_i8.Show>>);
+  @override
+  _i6.Future<List<_i9.Person>> searchPerson(String? query) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #searchPerson,
+          [query],
+        ),
+        returnValue: _i6.Future<List<_i9.Person>>.value(<_i9.Person>[]),
+      ) as _i6.Future<List<_i9.Person>>);
 }
 
 /// A class which mocks [TmdbRepository].
@@ -97,30 +117,38 @@ class MockTmdbRepository extends _i1.Mock implements _i3.TmdbRepository {
   }
 
   @override
-  _i6.Future<_i2.Result<_i8.Failure, List<_i9.SearchResult>>> searchMovies(
-          String? query) =>
+  _i6.Future<_i2.Result<_i10.Failure, List<_i11.SearchResult>>> search(
+    String? query,
+    _i12.SearchType? type,
+  ) =>
       (super.noSuchMethod(
         Invocation.method(
-          #searchMovies,
-          [query],
+          #search,
+          [
+            query,
+            type,
+          ],
         ),
         returnValue:
-            _i6.Future<_i2.Result<_i8.Failure, List<_i9.SearchResult>>>.value(
-                _FakeResult_0<_i8.Failure, List<_i9.SearchResult>>(
+            _i6.Future<_i2.Result<_i10.Failure, List<_i11.SearchResult>>>.value(
+                _FakeResult_0<_i10.Failure, List<_i11.SearchResult>>(
           this,
           Invocation.method(
-            #searchMovies,
-            [query],
+            #search,
+            [
+              query,
+              type,
+            ],
           ),
         )),
-      ) as _i6.Future<_i2.Result<_i8.Failure, List<_i9.SearchResult>>>);
+      ) as _i6.Future<_i2.Result<_i10.Failure, List<_i11.SearchResult>>>);
 }
 
 /// A class which mocks [SearchMovieUseCase].
 ///
 /// See the documentation for Mockito's code generation for more information.
 class MockSearchMovieUseCase extends _i1.Mock
-    implements _i10.SearchMovieUseCase {
+    implements _i13.SearchMovieUseCase {
   MockSearchMovieUseCase() {
     _i1.throwOnMissingStub(this);
   }
@@ -134,23 +162,31 @@ class MockSearchMovieUseCase extends _i1.Mock
         ),
       ) as _i3.TmdbRepository);
   @override
-  _i6.Future<_i2.Result<_i8.Failure, List<_i9.SearchResult>>> execute(
-          String? query) =>
+  _i6.Future<_i2.Result<_i10.Failure, List<_i11.SearchResult>>> execute(
+    String? query,
+    _i12.SearchType? type,
+  ) =>
       (super.noSuchMethod(
         Invocation.method(
           #execute,
-          [query],
+          [
+            query,
+            type,
+          ],
         ),
         returnValue:
-            _i6.Future<_i2.Result<_i8.Failure, List<_i9.SearchResult>>>.value(
-                _FakeResult_0<_i8.Failure, List<_i9.SearchResult>>(
+            _i6.Future<_i2.Result<_i10.Failure, List<_i11.SearchResult>>>.value(
+                _FakeResult_0<_i10.Failure, List<_i11.SearchResult>>(
           this,
           Invocation.method(
             #execute,
-            [query],
+            [
+              query,
+              type,
+            ],
           ),
         )),
-      ) as _i6.Future<_i2.Result<_i8.Failure, List<_i9.SearchResult>>>);
+      ) as _i6.Future<_i2.Result<_i10.Failure, List<_i11.SearchResult>>>);
 }
 
 /// A class which mocks [Client].
@@ -206,7 +242,7 @@ class MockHttpClient extends _i1.Mock implements _i4.Client {
     Uri? url, {
     Map<String, String>? headers,
     Object? body,
-    _i11.Encoding? encoding,
+    _i14.Encoding? encoding,
   }) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -236,7 +272,7 @@ class MockHttpClient extends _i1.Mock implements _i4.Client {
     Uri? url, {
     Map<String, String>? headers,
     Object? body,
-    _i11.Encoding? encoding,
+    _i14.Encoding? encoding,
   }) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -266,7 +302,7 @@ class MockHttpClient extends _i1.Mock implements _i4.Client {
     Uri? url, {
     Map<String, String>? headers,
     Object? body,
-    _i11.Encoding? encoding,
+    _i14.Encoding? encoding,
   }) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -296,7 +332,7 @@ class MockHttpClient extends _i1.Mock implements _i4.Client {
     Uri? url, {
     Map<String, String>? headers,
     Object? body,
-    _i11.Encoding? encoding,
+    _i14.Encoding? encoding,
   }) =>
       (super.noSuchMethod(
         Invocation.method(
@@ -335,7 +371,7 @@ class MockHttpClient extends _i1.Mock implements _i4.Client {
         returnValue: _i6.Future<String>.value(''),
       ) as _i6.Future<String>);
   @override
-  _i6.Future<_i12.Uint8List> readBytes(
+  _i6.Future<_i15.Uint8List> readBytes(
     Uri? url, {
     Map<String, String>? headers,
   }) =>
@@ -345,8 +381,8 @@ class MockHttpClient extends _i1.Mock implements _i4.Client {
           [url],
           {#headers: headers},
         ),
-        returnValue: _i6.Future<_i12.Uint8List>.value(_i12.Uint8List(0)),
-      ) as _i6.Future<_i12.Uint8List>);
+        returnValue: _i6.Future<_i15.Uint8List>.value(_i15.Uint8List(0)),
+      ) as _i6.Future<_i15.Uint8List>);
   @override
   _i6.Future<_i4.StreamedResponse> send(_i4.BaseRequest? request) =>
       (super.noSuchMethod(

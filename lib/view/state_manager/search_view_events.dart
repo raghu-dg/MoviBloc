@@ -24,3 +24,19 @@ class SearchShowEvent extends SearchViewEvent {
   @override
   List<Object?> get props => [query];
 }
+
+class UpdateSearchFilterEvent extends SearchViewEvent {
+  final String selectedFilter;
+
+  const UpdateSearchFilterEvent(this.selectedFilter);
+
+  @override
+  List<Object?> get props => [selectedFilter];
+}
+
+class ResetSearchEvent extends SearchViewEvent {
+  const ResetSearchEvent();
+
+  @override
+  List<Object?> get props => [];
+}

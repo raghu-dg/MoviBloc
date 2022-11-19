@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:movi/view/screen/search_filter.dart';
 import 'package:movi/view/state_manager/search_bloc.dart';
 import 'package:movi/view/state_manager/search_state.dart';
 import 'package:movi/view/state_manager/search_view_events.dart';
@@ -21,22 +22,38 @@ class SearchScreen extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: SingleChildScrollView(
+          child: SizedBox(
+        height: MediaQuery.of(context).size.height,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [_buildSearchBar(context), _buildResultContainer(context)],
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            _buildSearchBar(context),
+            const SearchFilter(),
+            Expanded(flex: 1, child: _buildResultContainer(context)),
+          ],
         ),
-      ),
+      )),
     );
   }
 
   Widget _buildSearchBar(BuildContext context) {
+    final controller = TextEditingController();
     return Padding(
         padding: const EdgeInsets.symmetric(vertical: 16),
         child: TextField(
-          textAlign: TextAlign.center,
-          decoration: const InputDecoration(
-            hintText: 'Search Movie, Show or Person',
-          ),
+          controller: controller,
+          textAlign: TextAlign.start,
+          decoration: InputDecoration(
+              border: const OutlineInputBorder(),
+              hintText: 'Search Movie, Show or Person',
+              suffixIcon: IconButton(
+                icon: const Icon(Icons.clear),
+                onPressed: () {
+                  controller.clear();
+                  context.read<SearchBloc>().add(const ResetSearchEvent());
+                },
+              )),
           onChanged: (query) {
             if (query.isNotEmpty) {
               context.read<SearchBloc>().add(SearchMovieEvent(query));
@@ -48,17 +65,25 @@ class SearchScreen extends StatelessWidget {
   Widget _buildResultContainer(BuildContext context) {
     return BlocBuilder<SearchBloc, SearchState>(builder: (context, state) {
       if (state is SearchLoading) {
-        return const CircularProgressIndicator();
+        return const Center(
+          child: CircularProgressIndicator(),
+        );
       } else if (state is SearchContent) {
-        return ListView.builder(
-            shrinkWrap: true,
-            physics: const NeverScrollableScrollPhysics(),
-            itemCount: state.searchResult.length,
-            itemBuilder: (context, index) {
-              return ListTile(
-                title: Text(state.searchResult[index].title),
-              );
-            });
+        if (state.searchResult.isNotEmpty) {
+          return ListView.builder(
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              itemCount: state.searchResult.length,
+              itemBuilder: (context, index) {
+                return ListTile(
+                  title: Text(state.searchResult[index].title),
+                );
+              });
+        } else {
+          return const Center(
+            child: Text("No Results Found!"),
+          );
+        }
       } else if (state is SearchError) {
         return Center(
           child: Text(state.message),

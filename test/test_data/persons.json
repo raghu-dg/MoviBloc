@@ -1,0 +1,700 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 2686269,
+      "known_for": [
+        {
+          "adult": true,
+          "genre_ids": [],
+          "id": 717625,
+          "media_type": "movie",
+          "original_language": "cs",
+          "original_title": "Viva Colombians",
+          "overview": "The Freshmen boys find some locals with big dicks and equally big appetites.",
+          "poster_path": "/9zBlKNHV172nZjUm2ML46MzzeQ3.jpg",
+          "release_date": "2019-02-21",
+          "title": "Viva Colombians",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 2507091,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/dmyWErK0752dyJnA0YT1Vfi9HzU.jpg",
+          "genre_ids": [
+            28,
+            12,
+            16,
+            10751
+          ],
+          "id": 234004,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Ratchet & Clank",
+          "overview": "When the galaxy comes under the threat of a nefarious space captain, a mechanic and his newfound robot ally join an elite squad of combatants to save the universe.",
+          "poster_path": "/649xP2LST4VIrZ5cLPw7Ys9movF.jpg",
+          "release_date": "2016-04-13",
+          "title": "Ratchet & Clank",
+          "video": false,
+          "vote_average": 5.8,
+          "vote_count": 540
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ejIYExAVPUDSfyrwPEerW67JZmE.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 963116,
+          "media_type": "movie",
+          "original_language": "fr",
+          "original_title": "Classico",
+          "overview": "",
+          "poster_path": "/zq7B2VrFcBZa6YyMHV9C1iggmWm.jpg",
+          "release_date": "2022-10-28",
+          "title": "Classico",
+          "video": false,
+          "vote_average": 4.9,
+          "vote_count": 27
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hFDkruTTgQDELamWHn8eRyhQDGw.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 687438,
+          "media_type": "movie",
+          "original_language": "fr",
+          "original_title": "Le bug des 10 millions",
+          "overview": "",
+          "poster_path": "/5HP3cMEBfa80KedqDIZB4pZ1BmM.jpg",
+          "release_date": "2017-12-01",
+          "title": "Le bug des 10 millions",
+          "video": false,
+          "vote_average": 4.9,
+          "vote_count": 4
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Rachid",
+      "popularity": 0.75,
+      "profile_path": "/2JnuBjtqFaEkmIjPmtx1XQrbKyH.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 1453948,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/kaIfm5ryEOwYg8mLbq8HkPuM1Fo.jpg",
+          "genre_ids": [
+            28,
+            12,
+            14,
+            878,
+            35
+          ],
+          "id": 284053,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Thor: Ragnarok",
+          "overview": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+          "poster_path": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+          "release_date": "2017-10-24",
+          "title": "Thor: Ragnarok",
+          "video": false,
+          "vote_average": 7.6,
+          "vote_count": 18429
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9531Jp42H0ppRXjkxxgCulnQNZp.jpg",
+          "genre_ids": [
+            12,
+            16,
+            35,
+            10751,
+            14
+          ],
+          "id": 137106,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "The Lego Movie",
+          "overview": "An ordinary Lego mini-figure, mistakenly thought to be the extraordinary MasterBuilder, is recruited to join a quest to stop an evil Lego tyrant from gluing the universe together.",
+          "poster_path": "/9klB7qKC9aCeGyyM4uU5hSA6xDV.jpg",
+          "release_date": "2014-02-06",
+          "title": "The Lego Movie",
+          "video": false,
+          "vote_average": 7.4,
+          "vote_count": 6789
+        }
+      ],
+      "known_for_department": "Visual Effects",
+      "name": "Jhon Alvarado",
+      "popularity": 0.644,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 2880447,
+      "known_for": [
+        {
+          "adult": false,
+          "genre_ids": [],
+          "id": 771520,
+          "media_type": "movie",
+          "original_language": "es",
+          "original_title": "Loop",
+          "overview": "A man must use a time machine to save his own life, but at the risk of getting trapped within a series of time paradoxes.",
+          "poster_path": "/m6degqkN5ZwU4Fs73aGCsM4x6Rc.jpg",
+          "release_date": "2019-12-05",
+          "title": "Loop",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Meza",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 3675208,
+      "known_for": [
+        {
+          "adult": false,
+          "genre_ids": [
+            35
+          ],
+          "id": 441143,
+          "media_type": "movie",
+          "original_language": "id",
+          "original_title": "Generasi Kocak: 90-an vs Komika",
+          "overview": "Allan (Afif Xavi) and Dellon (Adi Bing Slamet) are two figures who have  different postures and different ages but inseparable companions. Both are members of gangsters led by Si Naga 90s (Kadir) and Naga Komika (Anyun Lisp). One day when Allan is frantic when  hefinds out that his father (Jaja Miharja) goes to Jakarta, assisted by a taxi driver (Mandra) His father wants to see Allan’s 24-hour clinic. Allan has claimed to be a doctor and had his own clinic. Allan tells Dellon to gather their friends to pretend to be patients. Allan and Dellon pretending to be doctors and their girlfriends, Susi (Arafat Rianti) and Mia (Resti Wulandari) as nuns.",
+          "poster_path": "/lxfQ95e7aAzzLVhSGo6rwOZ2qRF.jpg",
+          "release_date": "2017-02-15",
+          "title": "Generasi Kocak: 90-an vs Komika",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Bule",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 1130824,
+      "known_for": [
+        {
+          "adult": false,
+          "genre_ids": [
+            37
+          ],
+          "id": 128353,
+          "media_type": "movie",
+          "original_language": "it",
+          "original_title": "Un buco in fronte",
+          "overview": "A stranger and a bandit seek out a trio of playing cards that will lead them to hidden treasure.",
+          "poster_path": "/hqgz0LibesxYyk4b7P0ZLlQducW.jpg",
+          "release_date": "1968-05-25",
+          "title": "Hole in the Forehead",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Bryan",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 2092983,
+      "known_for": [
+        {
+          "adult": false,
+          "genre_ids": [],
+          "id": 538236,
+          "media_type": "movie",
+          "original_language": "es",
+          "original_title": "Mi Pueblo Ciudad Mante",
+          "overview": "",
+          "poster_path": "/66eoG47wD6mPbKolVFdtWAPK3Yl.jpg",
+          "release_date": "2015-02-18",
+          "title": "Mi Pueblo Ciudad Mante",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "genre_ids": [],
+          "id": 793648,
+          "media_type": "movie",
+          "original_language": "es",
+          "original_title": "24 horas para morir",
+          "overview": "",
+          "poster_path": "/a4vVxUalRvg7FYsh7IbmHn2Podf.jpg",
+          "release_date": "2014-02-05",
+          "title": "24 horas para morir",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "genre_ids": [
+            28
+          ],
+          "id": 1013648,
+          "media_type": "movie",
+          "original_language": "es",
+          "original_title": "Trato De Muerte: El Corrido De La Barbie",
+          "overview": "La Barbie rises to power while meeting friends and enemies along the way",
+          "poster_path": "/kPEeClUZbGbxGDyv5C6BLxZcQAZ.jpg",
+          "release_date": "2013-01-01",
+          "title": "Trato De Muerte: El Corrido De La Barbie",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Solis",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 2024943,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/bpxvhn6WgO9qjQpWXqwx8yDeZdf.jpg",
+          "genre_ids": [
+            35,
+            18,
+            10749
+          ],
+          "id": 503352,
+          "media_type": "movie",
+          "original_language": "id",
+          "original_title": "#TemanTapiMenikah",
+          "overview": "Pining for his high school crush for years, a young man puts up his best efforts to move out of the friend zone until she reveals she's getting married.",
+          "poster_path": "/splV83B3CqMCbHUunoyaUoRUM60.jpg",
+          "release_date": "2018-03-28",
+          "title": "#FriendButMarried",
+          "video": false,
+          "vote_average": 6.7,
+          "vote_count": 9
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/kDEQsHUdEy4UihSICkeemE7vZRn.jpg",
+          "genre_ids": [
+            18,
+            10749
+          ],
+          "id": 725870,
+          "media_type": "movie",
+          "original_language": "id",
+          "original_title": "Dear Nathan: Thank You Salma",
+          "overview": "Nathan and Salma enter the world of social activism. Salma chose to express himself digitally while Nathan chose to take to the streets. This difference sparked a big fight when Nathan was involved in a big riot at a demonstration. Their romance ended. Nathan tries to fight for Salma to continue his relationship. Unfortunately, Nathan's time is torn apart after Rebecca asks him to help Zanna, who is sexually assaulted. Nathan is in a difficult position, because he has to protect Zanna's privacy and keep this matter a secret from everyone including Salma. The problem is compounded when Salma is close to Afkar, a musician who has long idolized Salma. Nathan never stopped fighting for justice for Zanna, but at the same time he was also not willing to lose Salma.",
+          "poster_path": "/yA6Pg5QWHPC3Np5JiI0zQnSQD48.jpg",
+          "release_date": "2022-01-13",
+          "title": "Dear Nathan: Thank You Salma",
+          "video": false,
+          "vote_average": 6.3,
+          "vote_count": 2
+        },
+        {
+          "adult": false,
+          "genre_ids": [
+            35,
+            27
+          ],
+          "id": 516713,
+          "media_type": "movie",
+          "original_language": "id",
+          "original_title": "Reuni Z",
+          "overview": "A B-list actor reconnects with his high school bandmates at a reunion that soon unravels when a group of attendants turns into zombies.",
+          "poster_path": "/fqc5Fhg4F8dba41GPAnSTsRIc8z.jpg",
+          "release_date": "2018-04-12",
+          "title": "Reunion Z",
+          "video": false,
+          "vote_average": 4.7,
+          "vote_count": 3
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Rendi Jhon",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 2191935,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/vBuw223bR0jeI3GHMfCjNBCGo6.jpg",
+          "genre_ids": [
+            28,
+            80
+          ],
+          "id": 119283,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Parker",
+          "overview": "A thief with a unique code of professional ethics is double-crossed by his crew and left for dead. Assuming a new disguise and forming an unlikely alliance with a woman on the inside, he looks to hijack the score of the crew's latest heist.",
+          "poster_path": "/u1cl4RsdqMjolVVsHwiLRPN1CT2.jpg",
+          "release_date": "2013-01-23",
+          "title": "Parker",
+          "video": false,
+          "vote_average": 6,
+          "vote_count": 2662
+        }
+      ],
+      "known_for_department": "Visual Effects",
+      "name": "Jhon Henao",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 2355077,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/gwRpsspT7lplYKk5JuZcJ8RvPXZ.jpg",
+          "genre_ids": [
+            10770,
+            10749,
+            37
+          ],
+          "id": 613306,
+          "media_type": "movie",
+          "original_language": "es",
+          "original_title": "Una Tarde Criolla",
+          "overview": "",
+          "poster_path": "/eCkpMnTjt23OO2CiYF18bhpqeFK.jpg",
+          "release_date": "2017-05-14",
+          "title": "Una Tarde Criolla",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Onofre",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 2469192,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/JZFALeHZ7Q0JGvmGt2xlB33Klr.jpg",
+          "genre_ids": [
+            80,
+            18
+          ],
+          "id": 651636,
+          "media_type": "movie",
+          "original_language": "pt",
+          "original_title": "Uma Terça-Feira Qualquer",
+          "overview": "",
+          "poster_path": "/queb55Bguq3TUwvvRgLdUdnLfEp.jpg",
+          "release_date": "2019-08-25",
+          "title": "Uma Terça-Feira Qualquer",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Vital",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 2726378,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/7E8PFFDElleUBcJMzzeWeSWW3mt.jpg",
+          "genre_ids": [],
+          "id": 710447,
+          "media_type": "movie",
+          "original_language": "pt",
+          "original_title": "Encruza",
+          "overview": "Based on the concept of crossroads, the short film \"Encruza\" addresses issues that go beyond black bodies. In an interconnected way, the narratives are constructed in the encounter of the characters. The elucidation of poignant conflicts are the ends of this crossroads that culminate in this great celebration that is the street carnival in Lapa carioca.",
+          "poster_path": "/xpRCQ0TBgxfTl1EjSlBpcJV7oF5.jpg",
+          "release_date": "2019-01-01",
+          "title": "Encruza",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Vital",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 3458161,
+      "known_for": [
+        {
+          "adult": false,
+          "genre_ids": [
+            80,
+            53,
+            10749
+          ],
+          "id": 947271,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Replica",
+          "overview": "Tonya, an African American trans woman has journeyed cross-country from her small Mississippi hometown to California in pursuit of her dream to be an actress. While en route to Los Angeles, she accidentally gets stranded in the suburbs of Los Angeles and becomes engulfed in a gritty world after being introduced to Mickey, a Neo-Nazi low-level meth dealer. But to both of their surprise, they begin falling in love just as they find themselves the prey of some ruthless drug dealers.",
+          "poster_path": "/7Z78SQeemXwTzcdoHorRYdjkJPk.jpg",
+          "release_date": "",
+          "title": "Replica",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Mejía",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 3231863,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/nxVq9D8u7c9MI8tYCqEgc5lJQz1.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 873458,
+          "media_type": "movie",
+          "original_language": "pt",
+          "original_title": "De Uma Tarde Sem Grandes Eventos",
+          "overview": "A chaotic record of a vulgar discharge. Too long for nothing to happen.",
+          "poster_path": "/lePXHsmOAj6AXyh7BigptNFko1F.jpg",
+          "release_date": "2021-09-15",
+          "title": "De Uma Tarde Sem Grandes Eventos",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Maoli",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 3342757,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/kWdiLrs0hVXE8EOdo04KKn2jwOC.jpg",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "id": 16843,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "11:11",
+          "overview": "Eighteen years after the murder of her parents, Sara Tobias searches for the meaning of the numbers '11:11' that was scratched in blood beside her mother's body. Following three sudden murders, supernatural events are unleashed as she gets closer to the truth.",
+          "poster_path": "/A9iemdircdmA0PRRXhDkouffy9h.jpg",
+          "release_date": "2004-02-01",
+          "title": "11:11",
+          "video": false,
+          "vote_average": 3.6,
+          "vote_count": 38
+        }
+      ],
+      "known_for_department": "Crew",
+      "name": "Jhon Drake",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 3601128,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/kndIH9lcAminyx9soVAwNMSPous.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 288599,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Wikus and Charlize",
+          "overview": "Wikus attempts to track down Charlize Theron in Hollywood to help him present the Award for Best Afrikaans Pop album.",
+          "poster_path": "/cA7WFPLELUmkydG1kS9J0IQQPqF.jpg",
+          "release_date": "2010-04-01",
+          "title": "Wikus and Charlize",
+          "video": true,
+          "vote_average": 5.8,
+          "vote_count": 4
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Doria",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 3702256,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/eJfwN5YAuTgslYdshma181LUzh9.jpg",
+          "genre_ids": [
+            35,
+            80,
+            18
+          ],
+          "id": 929206,
+          "media_type": "movie",
+          "original_language": "es",
+          "original_title": "Malicia Indígena",
+          "overview": "Alvaro Rodriguez, an old swindler, owes a lot of money to a dangerous moneylender. To pay off the debt, he proposes to the man, who is also his boss, to finance one of his businesses. In the end, the 'indigenous malice' wins out and he ends up cheating his boss.",
+          "poster_path": "/ypQQAVae1mmkkVTt03TjbvXqeuZ.jpg",
+          "release_date": "2018-12-08",
+          "title": "Indigenous Malice",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Stand",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 1556028,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/aX73dc9xRNIjokz7jdiuLscCazP.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 344514,
+          "media_type": "movie",
+          "original_language": "es",
+          "original_title": "Violencia",
+          "overview": "A man in chains, a young man who dreams of being part of something, to become a militant for an armed group who must wield a cruelty in which he may not believe in. The characters, each voluntary or involuntary part of a mechanism that overcomes them, reveal their greatness or misery in the “minimum” tasks that they perform to survive. From that sometimes morbid poetry of the everyday and the irrefutable truth of the details, we see a country whose social body is sick and injured.",
+          "poster_path": "/e05o5ULMAYYh6zwRkzvI1YWTNc1.jpg",
+          "release_date": "2015-02-07",
+          "title": "Violence",
+          "video": false,
+          "vote_average": 6,
+          "vote_count": 3
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Moyano",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 1885105,
+      "known_for": [
+        {
+          "first_air_date": "2003-06-10",
+          "genre_ids": [
+            10759,
+            18,
+            10768
+          ],
+          "id": 73832,
+          "media_type": "tv",
+          "name": "Nyi Roro Kidul",
+          "origin_country": [
+            "ID"
+          ],
+          "original_language": "id",
+          "original_name": "Nyi Roro Kidul",
+          "overview": "Nyi Roro Kidul",
+          "vote_average": 10,
+          "vote_count": 1
+        }
+      ],
+      "known_for_department": "Acting",
+      "name": "Jhon Tasrif",
+      "popularity": 0.6,
+      "profile_path": null
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 2603100,
+      "known_for": [],
+      "known_for_department": "Acting",
+      "name": "Jhon Muller",
+      "popularity": 0.6,
+      "profile_path": null
+    }
+  ],
+  "total_pages": 9,
+  "total_results": 177
+}
