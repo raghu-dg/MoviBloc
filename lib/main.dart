@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:movi/splash/splash_screen.dart';
 import 'package:movi/view/screen/search_screen.dart';
 import 'package:movi/di/injector.dart' as Injector;
 import 'package:movi/view/state_manager/search_bloc.dart';
@@ -26,7 +27,7 @@ class TmdbSearchApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const SearchScreen(),
+        home: SplashScreen(),
       ),
     );
   }
